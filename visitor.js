@@ -1,5 +1,13 @@
 let id = 1;
 
+http.createServer(function(req, res){
+     res.writeHead(200, {'Content-Type': 'text/html'})
+     res.write('server is running');
+     res.end();
+ 
+}).listen(port)
+
+
 class Visitor {
      constructor(fullName, age, visitDate, visitTime, comments, assistedBy) {
           console.log('New patient file has been created');
@@ -38,6 +46,10 @@ class Visitor {
                     console.log('File was saved');
                }
           });
+     }
+     load(loadVisitor){
+           loadVisitor = this.save
+          return loadVisitor;
      }
 }
 

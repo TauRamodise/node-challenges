@@ -1,0 +1,23 @@
+{
+  "name": "challenge1",
+  "version": "1.0.0",
+  "description": "node challenges file and io systems",
+  "main": "visitor.js",
+  "dependencies": {
+    "file-set": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TauRamodise/node-challenges.git"
+  },
+  "author": "Dimpho Ramodise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TauRamodise/node-challenges/issues"
+  },
+  "homepage": "https://github.com/TauRamodise/node-challenges#readme"
+}

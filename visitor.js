@@ -25,7 +25,7 @@ class Visitor {
                this.assistedBy
           );
           let fileData = JSON.stringify(files)
-          let fs = require('fs');
+          const fs = require('fs');
           
           id++;
 
@@ -40,7 +40,7 @@ class Visitor {
 
      }
      load(id) {
-          var fs = require("fs")
+          const fs = require("fs")
           if(id <= 0) {
               console.log("File doesn't exist");
           }
@@ -50,33 +50,3 @@ class Visitor {
       }
 }
 
-let visitor = new Visitor("Dee Ram",
-     "23",
-     "20 / 07 / 2019",
-     "09h56",
-     "Persistent Cough",
-     "Sister B");
-
-let visitor1 = new Visitor(
-     "Ram Gee",
-     "23",
-     "20 / 07 /19",
-     "09h56",
-     "Persistent cough",
-     "Sister B")
-
-let visitor2 = new Visitor(
-     "Jay K",
-     "23",
-     "20 / 07 /19",
-     "09h56",
-     "Persistent cough",
-     "Sister B")
-
-/* visitor.save();
-visitor1.save();
-visitor2.save(); */
-
-visitor.load(1);
-/* visitor1.load(2);
-visitor2.load(3); */

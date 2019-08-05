@@ -1,7 +1,7 @@
 let id = 0;
 
 
-class Visitor {
+module.exports = class Visitor {
      constructor(fullName, age, visitDate, visitTime, comments, assistedBy) {
 
           this.fullName = fullName;
@@ -32,12 +32,10 @@ class Visitor {
           fs.writeFile(`visitor_ ${id}.json`, fileData, err => {
                if (err) {
                     throw (Error + 'Cannot save file');
-               } else {
-                    console.log('File was saved');
-               }
+               }               
           });
 
-
+          return 'File was saved';
      }
      load(id) {
           const fs = require("fs")

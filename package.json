@@ -1,14 +1,16 @@
 {
   "name": "challenge1",
   "version": "1.0.0",
-  "description": "node challenges file and io systems",
+  "description": "visitor.js class spec ",
   "main": "visitor.js",
   "dependencies": {
-    "file-set": "^2.0.1"
+    "jasmine-node": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  },
   "scripts": {
-    "test": "test"
+    "test": "jasmine spec/visitor.spec.js"
   },
   "repository": {
     "type": "git",

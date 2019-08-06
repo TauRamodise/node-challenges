@@ -37,7 +37,7 @@ describe('Visitor.load()', () => {
         visitor = new Visitor("Rea Ear", 22, "22 January 2013", "09h32", "slight fever", "nurse B")
     })
     it('load() should be defined', () => {
-        expect(visitor.load(1)).toBeDefined();
+        expect(visitor.load(1)).toHaveBeenCalled();
     });
     it('should return the file with the defined ID', () => {
         expect(visitor.load(1)).toEqual({

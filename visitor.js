@@ -55,6 +55,5 @@ module.exports = class Visitor {
 }
 
 get(
-     console.log(testing)
-     
+     console.log(testing1)
 )

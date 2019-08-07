@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "visitor.js class spec ",
   "main": "visitor.js",
-  "dependencies": {
-    "jasmine-node": "^3.0.0"
-  },
   "devDependencies": {
     "jasmine": "^3.4.0"
   },

@@ -53,3 +53,8 @@ module.exports = class Visitor {
           return visitorData;
      }
 }
+
+get(
+     console.log(testing)
+     
+)
